@@ -181,29 +181,6 @@ mvn test
 mvn jacoco:report
 ```
 
-## 📁 Структура проекта
-
-```
-sca/
-├── sca-frontend/           # React приложение
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   ├── Dockerfile
-│   └── env.example
-├── sca-backend/            # Spring Boot приложение
-│   ├── src/
-│   ├── pom.xml
-│   ├── Dockerfile
-│   ├── nginx.conf
-│   └── ssl/
-├── docker-compose.yml      # Общий Docker Compose
-├── docker-compose.prod.yml # Production Docker Compose
-├── env.production.example  # Production переменные окружения
-├── QUICKSTART.md           # Быстрый старт
-└── README.md               # Этот файл
-```
-
 ##  Разработка
 
 ### Структура разработки:
